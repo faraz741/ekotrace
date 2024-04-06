@@ -30,7 +30,7 @@ import { ControlSidebarComponent } from './modules/main/control-sidebar/control-
 import { StoreModule } from '@ngrx/store';
 import { authReducer } from './store/auth/reducer';
 import { uiReducer } from './store/ui/reducer';
-import { ProfabricComponentsModule } from '@profabric/angular-components';
+// import { ProfabricComponentsModule } from '@profabric/angular-components';
 import { defineCustomElements } from '@profabric/web-components/loader';
 import { SidebarSearchComponent } from './components/sidebar-search/sidebar-search.component';
 import { NgxCaptchaModule } from 'ngx-captcha';
@@ -200,7 +200,7 @@ registerLocaleData(localeEn, 'en-EN');
             positionClass: 'toast-top-right',
             preventDuplicates: true
         }),
-        ProfabricComponentsModule,
+        // ProfabricComponentsModule,
         TableModule,
         CommonModule,
         ToastModule,
